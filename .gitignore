@@ -328,3 +328,13 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+
+
+
+#Project specific ignores
+RaspberryPi/**
+
+
+2.7inch_e-paper_hat_b_code.7z
+2.7inch-e-paper-hat-b-user-manual-en.pdf
+Loader.7z

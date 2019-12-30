@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="2.7inch-e-paper-hat-b-user-manual-en.pdf" />
+    <None Remove="2.7inch_e-paper_hat_b_code.7z" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="4.5.1" />
+    <PackageReference Include="Unosquare.Raspberry.IO" Version="0.18.1" />
+    <PackageReference Include="Unosquare.WiringPi" Version="0.2.4" />
+  </ItemGroup>
+
+</Project>
