@@ -60,12 +60,7 @@ namespace coffeeserv
                     if(posx == posy)
                         display[i] = 0xFF;
                 }
-                ////Dump  image to console
-                //if((i * 8) % epd.WIDTH == 0) { 
-                //    Console.WriteLine();
-                //    Console.Write("{0}:", posy);
-                //}
-                //Console.Write(display[i].ToString("X2"));
+               
             }
             Console.WriteLine("Displaying Image...");
 

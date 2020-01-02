@@ -338,3 +338,6 @@ RaspberryPi/**
 2.7inch_e-paper_hat_b_code.7z
 2.7inch-e-paper-hat-b-user-manual-en.pdf
 Loader.7z
+Microsoft.Net.Compilers.Toolset.3.1.0/*
+SixLabors*.1.0.0*/*
+System.Runtime.CompilerServices.Unsafe.*/*

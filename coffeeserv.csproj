@@ -2,9 +2,12 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <!-- <PublishTrimmed>true</PublishTrimmed> -->
   </PropertyGroup>
-
+<ItemGroup>
+  <RuntimeHostConfigurationOption Include="System.Globalization.Invariant" Value="true" />
+</ItemGroup>
   <ItemGroup>
     <None Remove="2.7inch-e-paper-hat-b-user-manual-en.pdf" />
     <None Remove="2.7inch_e-paper_hat_b_code.7z" />

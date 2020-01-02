@@ -30,6 +30,21 @@
             "problemMatcher": "$msCompile"
         },
         {
+            "label": "publishARM",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "publish",
+                "--self-contained=true",
+                "--runtime=linux-x64", 
+                "${workspaceFolder}/coffeeserv.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+                
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
             "label": "watch",
             "command": "dotnet",
             "type": "process",
